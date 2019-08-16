@@ -1481,7 +1481,7 @@ function deleteResourceCommand(thePlayer, commandName, resourceName)
 		deleteResource(resourceName)
 		outputChatBox("#389583[RACE] #FFFFFFResource #389583".. resourceName .. " #FFFFFFhas been deleted successfully#389583.", root, 255, 255, 255, true)
 		local msg = "[Resource] '".. resourceName .."' has been deleted by ("..getPlayerName(thePlayer)..")."
-		exports.webhook:sendDiscordMessage(msg)
+		--exports.webhook:sendDiscordMessage(msg)
 	else
 		outputChatBox("#389583[RACE] #FFFFFFThis resource does not exist#389583.", thePlayer, 255, 255, 255, true)
 	end
@@ -1495,12 +1495,13 @@ end
 addCommandHandler("deletemap", deleteResourceCommand)
 
 --------------------------------------------------------------------------------------------------
-
+--[[
 function resourceStartedSendToDiscord(res)
 	local msg = "[Resource] '".. getResourceName(res) .."' has been started."
 	exports.webhook:sendDiscordMessage(msg)
 end 
 addEventHandler("onResourceStart", getRootElement(), resourceStartedSendToDiscord)
+--]]
 --------------------------------------------------------------------------------------------------
 
 addCommandHandler("great", function(player)
