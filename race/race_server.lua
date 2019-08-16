@@ -1617,7 +1617,7 @@ addEventHandler("onPlayerChat", getRootElement(), playerChat)
 
 -------------------------------------------------------------------
 -- AFK
-
+--[[
 setTimer(
     function(player)
         for _, player in ipairs(getElementsByType("player")) do 
@@ -1651,5 +1651,5 @@ addEventHandler("onPlayerChat", getRootElement(), function()
 	end
 end
 )
-
+]]--
 -------------------------------------------------------------------
