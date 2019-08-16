@@ -1,0 +1,4 @@
+<meta>
+	<info author="~pS|Arezu" type="script" name="race carfade" version="1.0" />
+	<script src="carfade.lua" type="client" />
+</meta>

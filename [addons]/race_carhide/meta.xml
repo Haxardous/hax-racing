@@ -1,0 +1,7 @@
+<meta>
+
+	<info author="WTF//Jake, lukum" version="0.1" description="carhider" type="misc" />
+	
+	<script src="carhide.lua" type="client" />
+	
+</meta>

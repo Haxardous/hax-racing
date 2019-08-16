@@ -1,0 +1,5 @@
+<meta>
+	<info author="Vally" version="1.0" type="script" />
+	<script src="rl_server.lua" type="server" />
+	<script src="rl_client.lua" type="client" />
+</meta>

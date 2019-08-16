@@ -1,0 +1,4 @@
+<meta>
+<info author="lukum" version="1.0" type="script" />
+<script src="one_spawn.lua" type="server"/>
+</meta>
